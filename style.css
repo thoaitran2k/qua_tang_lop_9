@@ -1,14 +1,11 @@
-.video-button {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: #e74c3c;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  border-radius: 50px;
-  margin-top: 20px;
-  font-weight: bold;
-}
-.video-button:hover {
-  background-color: #c0392b;
-}
+body { background: #f0f8ff; font-family: 'Arial', sans-serif; text-align: center; padding: 20px; overflow-x: hidden; }
+#gift-box { font-size: 80px; cursor: pointer; margin-top: 100px; padding: 20px; transition: transform 0.3s; }
+#gift-box:hover { transform: scale(1.1); }
+.hidden { display: none; }
+
+#video-container { width: 90%; max-width: 800px; margin: 20px auto; border: 5px solid #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+#message { font-size: 24px; font-weight: bold; color: #d35400; margin-bottom: 20px; }
+
+#note-box { width: 90%; max-width: 600px; margin: 30px auto; background: #fff; padding: 20px; border-radius: 10px; border: 2px solid #3498db; text-align: left; }
+.emoji { position: fixed; top: -50px; font-size: 24px; font-weight: bold; color: red; animation: fall linear forwards; pointer-events: none; }
+@keyframes fall { to { transform: translateY(100vh); } }
