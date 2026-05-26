@@ -1,0 +1,52 @@
+body {
+  background: #f0f8ff;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+#gift-box {
+  font-size: 80px;
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 20px;
+}
+.hidden {
+  display: none;
+}
+
+#video-container {
+  width: 80%;
+  margin: 20px auto;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d35400;
+  margin: 20px;
+}
+
+#note-box {
+  width: 80%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #3498db;
+  text-align: left;
+}
+.emoji {
+  position: fixed;
+  top: -50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  animation: fall linear forwards;
+}
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
